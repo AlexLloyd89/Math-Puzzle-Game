@@ -1,0 +1,125 @@
+body {
+    background: url('https://images6.alphacoders.com/401/401025.jpg');
+    background-size: cover
+}
+
+.wrapmeup {
+    max-width: 960px;
+    margin: auto;
+}
+
+.instructions{
+    background-color: rgba(255, 68, 0, 0.603);
+    color: rgba(255, 255, 0, 1);
+    font-size: 20px;
+    text-shadow: 5px 5px 0 lightblue) ;
+    padding: 10px;
+    overflow: hidden;
+    border: 6px double;
+    border-radius: 20px;
+    font-family: 'Bevan', cursive;
+    
+}
+
+.hint{
+    font-size: 12px;
+    text-align: center;
+}
+
+.containcell {
+    width: 100%;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    }
+
+.cell{
+    margin: 0 auto;
+    display: block;
+}
+
+.power-level{
+    display: inline;
+    background-color: rgba(0, 255, 64, 0.603);
+    color: rgba(255, 255, 0, 1);
+    font-size: 15px;
+    text-shadow: 5px 5px 0 lightblue);
+    padding: 10px;
+    overflow: hidden;
+    border: 0px double;
+    border-radius: 20px;
+    font-family: 'Bevan', cursive;
+    text-align: center;
+    justify-content: center;
+
+}
+.fighters{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.goku {
+    display: block;
+    max-width: 200px;
+    height: auto;
+    float: left;
+    }
+
+.vegeta {
+    display: flex;
+    align-items: flex-end;
+    max-width: 200px;
+    height: auto;
+    float: left;
+   }
+
+.krillin {
+    display: flex;
+    align-items: flex-end;
+    max-width: 200px;
+    height: auto;
+    float: left;
+    }
+
+.piccolo {
+    display: block;
+    max-width: 200px;
+    height: auto;
+    float: left;
+   }
+
+#number-to-guess{
+    color: #A109AB;
+}
+
+.scoreboard {
+    background-color: rgba(255, 68, 0, 0.603);
+    color: rgb(255, 255, 68);
+    font-size: 20px;
+    text-shadow: 5px 5px 0 lightblue) ;
+    padding: 5px;
+    overflow: hidden;
+    border: 6px double;
+    border-radius: 20px;
+    font-family: 'Bevan', cursive;
+}
+
+.total {
+    display: block;
+    background-color: rgba(23, 247, 255, 0.603);
+    color: rgb(53, 53, 47);
+    font-size: 15px;
+    text-shadow: 5px 5px 0 lightblue);
+    padding: 10px;
+    overflow: hidden;
+    border: 2px double;
+    border-radius: 20px;
+    font-family: 'Bevan', cursive;
+    text-align: center;
+}
+
+#total-score{
+    color: rgb(158, 114, 3);
+}
+
