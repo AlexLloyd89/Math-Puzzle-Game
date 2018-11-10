@@ -28,9 +28,9 @@ body {
 
 .containcell {
     width: 100%;
-    /*display: flex;
-    justify-content: center;
-    align-items: center;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     }
 
 .cell{
@@ -51,6 +51,7 @@ body {
     font-family: 'Bevan', cursive;
     text-align: center;
     justify-content: center;
+    width: fit-content;
 
 }
 .fighters{
