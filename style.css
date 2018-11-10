@@ -1,8 +1,44 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
 body {
     background: url('https://images6.alphacoders.com/401/401025.jpg');
     background-size: cover
 }
 
+.header{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: fit-content;
+    position: relative;
+
+}
+
+.dragon-ball{
+    max-width: 60%;
+    margin: 0 auto;
+    
+}
+
+.dragon-ball:hover{
+    animation: shake 0.5s; 
+    animation-iteration-count: infinite;
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
 .wrapmeup {
     max-width: 960px;
     margin: auto;
@@ -18,8 +54,7 @@ body {
     border: 6px double;
     border-radius: 20px;
     font-family: 'Bevan', cursive;
-    
-}
+   }
 
 .hint{
     font-size: 12px;
@@ -39,18 +74,15 @@ body {
 }
 
 .power-level{
-    display: inline;
+    margin: 0 auto;
     background-color: rgba(0, 255, 64, 0.603);
     color: rgba(255, 255, 0, 1);
     font-size: 15px;
-    text-shadow: 5px 5px 0 lightblue);
     padding: 10px;
     overflow: hidden;
     border: 0px double;
     border-radius: 20px;
     font-family: 'Bevan', cursive;
-    text-align: center;
-    justify-content: center;
     width: fit-content;
 
 }
@@ -107,17 +139,19 @@ body {
 }
 
 .total {
-    display: block;
+    margin: 0 auto;
     background-color: rgba(23, 247, 255, 0.603);
     color: rgb(53, 53, 47);
     font-size: 15px;
     text-shadow: 5px 5px 0 lightblue);
     padding: 10px;
     overflow: hidden;
-    border: 2px double;
+    border: 0px double;
     border-radius: 20px;
     font-family: 'Bevan', cursive;
     text-align: center;
+    justify-content: center;
+    width: fit-content;
 }
 
 #total-score{

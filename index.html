@@ -12,12 +12,15 @@
 </head>
 <body>
     <!--Header-->
+    <div class="header">
+        <img class ='dragon-ball' src="Assets/DragonBall.png" alt="4 Star Dragon Ball">
+    </div>
     <!--Instructions-->
 
     <div class="wrapmeup">
         <div class="instructions">
          <div class="main-text">
-                Cell has appeared and is trying to destroy Earth! Cell has created an anomaly that makes the Z Fighters' Power Levels change at random. In order to defeat Cell you must combine the Power Levels of the Z Fighters to be equal to that of Cell's Power Level. Be careful though, if your Power Level becomes greater than Cell's, the game will end! Defeat Cell 3 times for a secret ending
+                Cell has appeared and is trying to destroy Earth! Cell has created an anomaly that makes the Z Fighters' Power Levels change at random. In order to defeat Cell you must combine the Power Levels of the Z Fighters to be equal to that of Cell's Power Level. You can combine power levels by clicking on each of the Z Fighters. Be careful though, if your Power Level becomes greater than Cell's Power Level, then the game will end! 
         </div>
             <div class="hint">
                 Hint: The stronger the character, the more likely you are to get a higher number!
@@ -28,10 +31,16 @@
         <img class='cell' src="https://media.giphy.com/media/XvTfRJ1qpc8lq/giphy.gif" alt='Cell'>
         <div class= 'power-level'>Cell's Current Power Level: <span id="number-to-guess"></span></div>
     </div>
+
+    <!--user score--> 
+    
+    <div class="total">
+       Z Fighters' Current Power Level: <span id="total-score"></span>
+    </div>
     
     <!--Player Characters-->
-    <div class="fighters">
-       
+   
+    <div class="fighters"> 
         <img class="goku" src="https://media.giphy.com/media/10fsqdkdVav9S/giphy.gif" alt="crystals">
         
        
@@ -45,11 +54,7 @@
         
     </div>
 
-<!--user score-->    
-    <div class="total">
-        Current Power Level: <span id="total-score"></span>
-    </div>
-    
+   
 <!--wins and losses section-->
 <div class="scoreboard">
     <p>Wins: <span id="total-wins"></span>
