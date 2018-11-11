@@ -10,9 +10,10 @@ body {
 .header{
     display: flex;
     flex-direction: column;
-    float: left;
+    float: left; 
     width: fit-content;
     position: relative;
+    align-items: center;
 
 }
 
@@ -53,15 +54,21 @@ body {
     overflow: hidden;
     border: 6px double;
     border-radius: 20px;
-    font-family: 'Bevan', cursive;
+    font-family: 'Suez One', serif;
    }
-
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0)); 
+}
 .hint{
     font-size: 12px;
     text-align: center;
 }
 
 .containcell {
+    padding-top: 20px;
+    padding-bottom: 10px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -77,12 +84,12 @@ body {
     margin: 0 auto;
     background-color: rgba(0, 255, 64, 0.603);
     color: rgba(255, 255, 0, 1);
-    font-size: 15px;
+    font-size: 20px;
     padding: 10px;
     overflow: hidden;
     border: 0px double;
     border-radius: 20px;
-    font-family: 'Bevan', cursive;
+    font-family: 'Suez One', serif;
     width: fit-content;
 
 }
@@ -93,37 +100,37 @@ body {
     align-items: flex-end;
 }
 .goku {
-    display: block;
+    display: flex;
     max-width: 200px;
     height: auto;
-    float: left;
+
     }
 
 .vegeta {
     display: flex;
-    align-items: flex-end;
     max-width: 200px;
     height: auto;
-    float: left;
+
    }
 
 .krillin {
     display: flex;
-    align-items: flex-end;
     max-width: 200px;
     height: auto;
-    float: left;
+
     }
 
 .piccolo {
-    display: block;
+    display: flex;
     max-width: 200px;
     height: auto;
-    float: left;
+
    }
 
 #number-to-guess{
     color: #A109AB;
+    font-size: 20px;
+    
 }
 
 .scoreboard {
@@ -135,26 +142,40 @@ body {
     overflow: hidden;
     border: 6px double;
     border-radius: 20px;
-    font-family: 'Bevan', cursive;
+    font-family: 'Suez One', serif;
 }
 
 .total {
     margin: 0 auto;
-    background-color: rgba(23, 247, 255, 0.603);
-    color: rgb(53, 53, 47);
-    font-size: 15px;
+    background-color: rgb(53, 53, 47, 0.603);
+    color: rgba(23, 247, 255, 1);
+    font-size: 20px;
     text-shadow: 5px 5px 0 lightblue);
     padding: 10px;
     overflow: hidden;
     border: 0px double;
     border-radius: 20px;
-    font-family: 'Bevan', cursive;
+    font-family: 'Suez One', serif;
     text-align: center;
     justify-content: center;
     width: fit-content;
 }
 
 #total-score{
-    color: rgb(158, 114, 3);
+    color: rgba(255, 68, 0, 1);
+    font-size: 20px;
+  
 }
 
+a {
+    display: grid;
+}
+
+/* Media Query*/
+@media screen and (max-width: 640px) {
+    .header{
+        width: 100%;
+        padding-bottom: 15px;
+    }
+   
+}
