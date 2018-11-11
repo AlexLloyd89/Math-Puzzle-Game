@@ -177,5 +177,20 @@ a {
         width: 100%;
         padding-bottom: 15px;
     }
-   
+   .goku{
+       width: 110px;
+       height: auto;
+   }
+   .krillin{
+       width: 85px;
+       height: auto;
+   }
+   .vegeta{
+       width:85px;
+       height: auto;
+   }
+   .piccolo{
+       width:75px;
+       height: auto;
+   }
 }
