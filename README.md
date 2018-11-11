@@ -1,1 +1,2 @@
-# unit-4-game
+# Dragon Ball Z Math Puzzle Game
+Playable in browser & mobile!
