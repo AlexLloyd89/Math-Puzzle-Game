@@ -40,42 +40,28 @@ function bad (){
     resetGame()
 };
 
+function attack(hit){
+    total = total + hit;
+    $('#total-score').text(total);
+    if (total === targetNumber){
+        good();
+    } else if (total > targetNumber){
+        bad();
+    }
+}
 //User Input
 $('.goku').on('click', function(){
-    total = total + gokuNumber;
-    $('#total-score').text(total);
-    if (total === targetNumber){
-        good();
-    } else if (total > targetNumber){
-        bad();
-    }
+    attack(gokuNumber);
 });
+
 $('.vegeta').on('click', function(){
-    total = total + vegetaNumber;
-    $('#total-score').text(total);
-    if (total === targetNumber){
-        good();
-    } else if (total > targetNumber){
-        bad();
-    }
+   attack(vegetaNumber);
 });
 $('.krillin').on('click', function(){
-    total = total + krillinNumber;
-    $('#total-score').text(total);
-    if (total === targetNumber){
-        good();
-    } else if (total > targetNumber){
-        bad();
-    }
+    attack(krillinNumber);
 });
 $('.piccolo').on('click', function(){
-    total = total + piccoloNumber;
-    $('#total-score').text(total);
-    if (total === targetNumber){
-        good();
-    } else if (total > targetNumber){
-        bad();
-    }
+    attack(piccoloNumber);
 });
 
 
