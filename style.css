@@ -158,6 +158,7 @@ hr{
     text-align: center;
     justify-content: center;
     width: fit-content;
+    width: -moz-fit-content;
 }
 
 /*Wins & Losses*/
